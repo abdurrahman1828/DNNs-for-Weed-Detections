@@ -55,7 +55,8 @@ https://github.com/google/automl/tree/master/efficientdet.
 
 
 ## Model Weights
-The weights folder contains the trained weights for each model. Separate Google Drive link is provided if the file is large enough.<br />
+The weights folder contains the trained weights for each model. Separate Google 
+Drive link will be provided if the file is large enough.<br />
  
 ### Code Ownership
 The models and code used for our experiments are not 
