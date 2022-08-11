@@ -31,15 +31,15 @@ deep object detectors by maximum of 4.2%.
 ##Dataset: 
 Kaggle link will be provided...
 ##Model Implementations:
-###YOLOv5
+#####YOLOv5
 Yolov5 implementation is based on tutorial notebook provided 
  by Ultralytics (https://github.com/ultralytics/yolov5) and 
  Roboflow (https://models.roboflow.com/).<br />
 
-###Faster RCNN, Fast-RCNN, and RetinaNet 
+#####Faster RCNN, Fast-RCNN, and RetinaNet 
 Faster RCNN, Fast-RCNN, and RetinaNet implementations are based on tutorial provided by Detectron2 (https://github.com/facebookresearch/detectron2).<br />
 
-###EfficientDet 
+#####EfficientDet 
 EfficientDet implementation is based on https://github.com/wangermeng2021/EfficientDet-tensorflow2 
 project which was developed based on 
 https://github.com/google/automl/tree/master/efficientdet.
@@ -47,11 +47,15 @@ https://github.com/google/automl/tree/master/efficientdet.
 
 ##Annotation Conversions
 VIA to COCO JSON, and COCO JSON to YOLOv5 format 
-sciprts has been added in the conversion folder.
+sciprts has been added in the *conversion* folder.
+
+##Data Augmentation
+A data augmentation script has been added in the 
+*data_augmentation* folder. One can create 2x, 4x, and 8x sized augmented data using this.
 ##Model Weights
 The weights folder contains the trained weights for each model. Separate Google Drive link is provided if the file is large enough.<br />
  
-###Code Ownership
+#####Code Ownership
 The models and code used for our experiments are not 
 maintained by us, please give credit to the respective authors 
 of the studied models.
