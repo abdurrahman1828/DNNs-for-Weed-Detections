@@ -1,9 +1,0 @@
-opencv-python
-opencv-contrib-python
-cython
-matplotlib
-six
-numpy
-albumentations
-tqdm
-pycocotools
