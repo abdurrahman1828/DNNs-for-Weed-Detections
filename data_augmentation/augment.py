@@ -18,6 +18,12 @@ def draw_rect(img, bboxes, color=(255, 0, 0)):
         img = cv2.rectangle(img, pt1, pt2, color, int(max(img.shape[:2]) / 200))
     return img
 
+def debug_bbox(x, h, w):
+    x[0] = max(0., min(float(x[0]), w))
+    x[1] = max(0., min(float(x[1]), h))
+    x[2] = max(0., min(float(x[2]), w))
+    x[3] = max(0., min(float(x[3]), h))
+    return x
 
 def getTransform(loop):
     print(loop)
